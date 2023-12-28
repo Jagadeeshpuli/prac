@@ -9,3 +9,7 @@ async def index():
 @app.get('/greet/{name}')
 async def greet(name):
     return f"Hi {name}"
+
+@app.get('/feature2')
+async def feature2():
+    return "Feature 2"
